@@ -11,6 +11,9 @@ version = '.'.join([str(v) for v in [major, minor, patch]])
 url = 'https://github.com/dunovank/jupyter-themes'
 download_url = '/'.join([url, 'tarball', 'v' + version])
 
+version += '-tuned'
+url = download_url = None
+
 
 # get readme content after screenshots for pypi site
 README = os.path.join(os.path.dirname(__file__), 'README.md')
